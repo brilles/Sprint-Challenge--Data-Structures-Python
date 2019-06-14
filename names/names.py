@@ -10,8 +10,8 @@ f = open('names_2.txt', 'r')
 names_2 = set(f.read().split("\n"))  # List containing 10000 names
 f.close()
 
-# duplicates = names_1 & names_2
-duplicates=[]
+duplicates = names_1 & names_2
+# duplicates=[]
 
 #stretch 
 # for i in names_1:
